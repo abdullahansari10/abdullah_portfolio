@@ -37,9 +37,9 @@
     ##Screen = B/w 768px to 1024px
   */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 991px) and (max-width: 1100px) and (orientation: landscape) {
 
-  /* .container.main {
+  .container.main {
     margin-top: 50px;
   }
   .green-square {
@@ -72,7 +72,7 @@
     position: relative;
     left: -420px;
     top: -22px;
-  } */
+  }
   
 }
 
@@ -81,7 +81,7 @@
     ##Screen = B/w 481px to 767px
   */
 
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 990px) {
 
   .col-lg-1, .col-lg-3, .col-lg-8{
     border: none !important;
