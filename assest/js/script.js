@@ -57,17 +57,17 @@ function hoverRemove() {
 // Initialize sections with default content if needed
 profile_div.innerHTML = `
     <h3 class="text-decoration-underline">Profile</h3>
-    <p class="fs-5">I am Abdullah Ansari, a third-year BSc IT student with a strong foundation in
-        Information Technology and a keen interest in web development.<br> Currently, I am interning at
-        Herzsoft, where I have been applying and enhancing my skills in web development for the past two
-        months.<br>I am eager to continue growing my technical expertise and contribute effectively to
-        innovative projects.</p>
+    <p class="fs-5">I am Abdullah Ansari, I have completed my BSc IT from Maharashtra College (University of Mumbai) with a strong interest in full
+    stack web development. Iʼve been interning at Herzsoft Technologies Pvt. Ltd. for the past 8 months, working 
+    on real-world projects using technologies like PHP, MySQL, HTML, CSS, JavaScript, Bootstrap, and React. I 
+    enjoy building responsive and user-friendly websites and applications. Iʼm now looking for a full-time 
+    opportunity where I can grow my skills and contribute to a professional team.</p>
 `;
 
 qualification_div.innerHTML = `
     <h3 class="text-decoration-underline">Qualification</h3>
-    <p class="fs-5">I have completed a Diploma in Information Technology and am currently in the final year of
-        Bachelor of Science in Information Technology (BSc IT). Alongside my studies, I'm gaining
+    <p class="fs-5">I have completed a Diploma in Computer Technology at Maratha Mandir's Babasaheb Gawde Institute Of Technology and and Bachelor of Science in Information Technology (BSc IT) at Maharashtra College of Arts, Science and Commerce (MU).
+    Alongside my studies, I'm gaining
         practical experience as a Web Development Intern at Hertzsoft, where I have been working for the
         past two months. My role involves assisting in the development and maintenance of web
         applications, collaborating with the team to design and implement new features, and working with
@@ -81,5 +81,12 @@ skills_div.innerHTML = `
 
 projects_div.innerHTML = `
     <h3 class="text-decoration-underline">Projects</h3>
-    <p class="fs-5">As part of my web development projects, I have built several responsive websites and web applications using HTML, CSS, and JavaScript. I created a clone of the Alpine River Hill website, focusing on replicating its design and user experience. Additionally, I developed interactive JavaScript-based projects, including a fully functional cart page with add-to-cart functionality, a dynamic calculator, and a "Guess the Number" game, among others. These projects have strengthened my skills in front-end development and enhanced my understanding of user interface design.</p>
+    <ul class="fs-5">
+        <li>Chatbot App: Created an AI-powered chatbot using the Gemini library to answer questions about my profile. Integrated with PHP and JavaScript.</li>
+        <li>Inventory Management System: A system to manage product stock and sales, with admin and staff features (PHP, MySQL, JS).</li>
+        <li>Chat Web App: Built a messaging app with user login and live chat using PHP, jQuery, and AJAX.</li>
+        <li>Blog Website: A dynamic site with admin panel, blog posting/editing (PHP, MySQL, Bootstrap).</li>
+        <li>Portfolio Website: Personal site showcasing projects and resume (HTML, CSS, JS).</li>
+        <li>Mini Projects: To-Do App, Calculator, etc.</li>
+    </ul>
 `;

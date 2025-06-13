@@ -105,7 +105,9 @@ button {
     font-family: "Arimo", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
-    font-style:normal;
+    /* font-style:normal; */
+      font-family: "Roboto", sans-serif;
+
 }
 
 /* Define the animation for sliding up */
@@ -122,12 +124,12 @@ button {
     0% {
         transform: translateY(100%);
         opacity: 0;
-        background-color: #1C1E1F; /* Initial background color */
+        /* background-color: #1C1E1F; Initial background color */
     }
     100% {
         transform: translateY(0);
         opacity: 1;
-        background-color: #282C34; /* New background color when sliding up */
+        /* background-color: #282C34; New background color when sliding up */
     }
 }
 
@@ -136,12 +138,12 @@ button {
     0% {
         transform: translateY(0);
         opacity: 1;
-        background-color: #282C34; /* New background color when sliding down */
+        /* background-color: #282C34; New background color when sliding down */
     }
     100% {
         transform: translateY(100%);
         opacity: 0;
-        background-color: #1C1E1F; /* Final background color */
+        /* background-color: #1C1E1F; Final background color */
     }
 }
 
@@ -151,9 +153,9 @@ button {
 }
 
 /* Class to apply the background slide-down animation */
-.slide-down-background {
+/* .slide-down-background {
     animation: slideDownBackground 0.7s ease-out forwards;
-}
+} */
 
 /* Hide elements initially */
 .hide {
