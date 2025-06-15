@@ -80,7 +80,11 @@
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-
+@media (min-width: 481px) and (max-width: 752px) {
+  .image img {
+    width: 500px !important;  
+  }
+}
 @media (min-width: 481px) and (max-width: 990px) {
 
   .col-lg-1, .col-lg-3, .col-lg-8{
@@ -117,9 +121,7 @@
   }
 
   .custom_navbar #info {
-    padding: 22px 40px;
-    padding-bottom: 0;
-    padding-top: 0;
+    padding: 0 20px;
   }
 
   #info i {
